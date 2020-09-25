@@ -1,0 +1,69 @@
+/*services section*/
+
+.service-item{
+    width: 50%;
+    float:left;
+}
+.service-item .section-header {
+    text-align: left;
+}
+.service-item .section-title::after{
+    content: "";
+    background-color: var(--maincolor);
+    display: block;
+    margin:15px 0 50px 0;
+    width: 60px;
+    height:5px;
+
+}
+.services-item-des{
+    padding-right: 20px;
+    color: #999;
+    line-height: 1.5;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.services-list{
+    list-style: none;
+}
+.services-list li{
+    margin-bottom: 10px;
+    color: #999;
+}
+.services-list li i{
+    border:1px solid var(--maincolor);
+    color: var(--maincolor);
+    border-radius: 50%;
+    width: 30px;
+    height:30px;
+    padding: 5px 5px;
+ 
+}
+
+
+.services-imag img{
+    width: 100%;
+}
+
+
+.services-polits{
+    list-style: none;
+    text-align: center;
+
+}
+.services-polits li{
+    width: 10px;
+    height:10px;
+    display: inline-block;
+    background-color: #a8a8a8;
+    margin: 10px 5px;
+    border-radius: 50%;
+    transition: background-color .6s;
+}
+.services-polits li.active{
+    background-color: var(--maincolor);
+}
+.services-polits li:hover{
+    background-color: var(--maincolor);
+    cursor: pointer;
+}

@@ -1,0 +1,21 @@
+.border-bottom-d{
+    border-bottom: 1px solid#ddd;
+}
+.width-100{
+    width: 100%;
+}
+.overflow-hidden{
+    overflow: hidden;
+}
+.float-left{
+    float: left;
+}
+.text-transform-capitalize{
+    text-transform: capitalize;
+}
+.color-6195ff{
+    color: #6195ff;
+}
+.a-hover-color:hover{
+    color: #6195ff;
+}
